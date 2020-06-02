@@ -1,0 +1,531 @@
+*, body, html {
+    font-size: 16px;
+}
+
+ion-icon:hover {
+    color: #fdb552 !important;
+}
+
+.text-orange {
+    color: #fdb552;
+}
+
+.socialpics {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+#kaz-nav {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+/*#kaz-nav li {
+	align-self: center;
+}*/
+
+#kaz-nav a {
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+#kaz-nav a:hover:not(#order) {
+    color: #fdb552;
+}
+
+#kaz-slide {
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.8);
+    position: relative;
+    border-radius: 5px;
+}
+
+.slide-text {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+/*.social-img {
+	background: rgb(255, 255, 255, 0.8);
+	padding: 6px;
+	border-radius: 5px;
+}*/
+
+.social-heads {
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+
+.social-heading {
+    text-transform: lowercase;
+    /*background: rgba(255, 255, 255, 0.8);*/
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: 5px;
+}
+
+.badge-secondary {
+    background: rgb(63, 63, 63) !important;
+}
+
+footer .badge {
+    font-size: 90% !important;
+}
+
+#social {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.direct {
+    background: url("/images/tomato.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    font-family: 'Alex Brush', cursive;
+}
+
+.direct-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+}
+
+#section-welcome {
+    background: url(../images/tomato.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+#section-okoboji {
+    background: url(../images/spaghetti.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#section-spencer {
+    background: url(../images/spencer-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.shrink {
+    height: 50px;
+    background: #eeecef !important;
+}
+
+.shrink .navbar {
+    -webkit-transform: translateY(-40px);
+    transform: translateY(-40px);
+}
+
+.shrink #logo {
+    opacity: 0;
+}
+
+/*.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  margin: 0 auto;
+  width: 1153.67px;
+  height: 50px;
+  padding: 10px 40px !important;
+  background: #eeecef !important;
+}
+
+.sticky li {
+	padding: inherit;
+}*/
+
+.kaznav,
+.kaznav #logo,
+.navbar {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+
+
+.social-nav ion-icon {
+    color: black;
+    font-size: 25px !important;
+}
+
+.social-nav ion-icon a {
+    color: black;
+    text-decoration: none;
+}
+
+.main-nav,
+.footer-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px 40px;
+}
+
+.main-nav ul,
+.footer-nav ul {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main-nav a,
+.footer-nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-nav img {
+    min-width: 275px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.btn {
+    -webkit-box-sizing: border-box !important;
+    box-sizing: border-box !important;
+    padding: 5px 10px !important;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7) !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7) !important;
+    border: none !important;
+}
+
+.btn-warning {
+    background: #FDAC49 !important;
+}
+
+.btn:hover {
+    background: #fdb552 !important;
+}
+
+hr {
+    width: 10px;
+    color: #fdb552;
+    display: block;
+    margin: 30px auto;
+    opacity: 0;
+}
+
+/*************************************/
+/*SLIDESHOW*/
+/************************************/
+
+.slideshow {
+    padding: 12px;
+    background: #eeecef;
+    position: relative;
+}
+
+.slideshow img {
+    width: 100%;
+    height: auto;
+}
+
+.slides {
+    display: none;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 8px 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 12px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.prev {
+    margin-left: 20px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/*************************************/
+/*FACEBOOK*/
+/************************************/
+
+#facebook h1,
+#catering h1,
+#party h1,
+#menu h1 {
+    display: block;
+    margin: 40px auto;
+    background: rgb(63, 63, 63);
+    color: white;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-size: 37px;
+    padding: 8px 12px;
+    font-style: italic;
+
+}
+
+.fb-plugin {
+    width: 100%;
+}
+
+#facebook iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/* new banner */
+.social-banner,
+.social-banner-ig,
+.social-banner-2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.social-banner img,
+.social-banner-ig img,
+.social-banner-2 img {
+    width: 95%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 6px;
+    margin: 6px;
+    background: #eeecef;
+    height: 100%;
+    max-height: 234.383px;
+    width: 234.383px;
+}
+
+.social-banner {
+    position: absolute;
+}
+
+.social-banner-2 {
+    position: absolute;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.social-wrap {
+    height: 300px;
+}
+
+
+
+/***********************************/
+/*FOOTER*/
+/***********************************/
+
+footer {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.footer-nav {
+    margin-top: 20px;
+}
+
+#bottom-social {
+    text-align: center;
+}
+
+.sig {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sig a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+}
+
+.sig a:hover {
+    color: #fdb552;
+}
+
+/********************************/
+/*PARTY ROOM*/
+/********************************/
+
+.party-pics img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 6px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+
+/********************************/
+/*CATERING*/
+/********************************/
+
+#catering {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.catering p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+
+/********************************/
+/*ABOUT US*/
+/********************************/
+
+.about-us h1 {
+    color: #fdb552;
+}
+
+.about-us img {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    background: white;
+}
+
+/********************************/
+/*MENU*/
+/********************************/
+
+.menu-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menu-wrap img {
+    width: 80%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 6px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.contact-footer-text p,
+.contact-footer-text a {
+    font-size: 14px;
+    margin: 0;
+}
+
+.menu-item-underline {
+    width: 50%;
+    height: 4px;
+    background: linear-gradient(to bottom right, transparent, #bd2929, transparent);
+    /*box-shadow: 2px 2px 3px #3f3f3f;*/
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+#menu-list,
+#create-menu,
+#add-photo-section {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+#menu-list {
+    border: 2px solid #0b7a47;
+}
+
+.text-green {
+    color: #0b7a47;
+}
+
+.text-red {
+    color: #bd2929;
+}
+
+.menu-desc-box {
+    margin: 0 auto;
+    width: 50%;
+    background: rgba(63, 63, 63);
+    color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
