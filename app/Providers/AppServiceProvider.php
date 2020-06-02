@@ -4,7 +4,7 @@ namespace App\Providers;
 
 use App\Dining;
 use App\Photo;
-use App\spencerDining;
+use App\Spencerdining;
 use App\Spencermenu;
 use App\Spencerphoto;
 use Illuminate\Support\ServiceProvider;
