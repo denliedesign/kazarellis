@@ -55,7 +55,7 @@
                     <a class="nav-link" href="/">Locations</a>
                 </li>
                 <li class="nav-item mx-4">
-                    <button type="button" class="btn btn-warning"><a id="order" href="https://ordering.chownow.com/order/10320/locations" target="_blank">Order Online</a></button>
+                    <button type="button" class="btn btn-warning"><a id="order" class='chownow-order-online' href="https://ordering.chownow.com/order/10320/locations" target="_blank">Order Online</a></button>
                 </li>
             </ul>
         </div>

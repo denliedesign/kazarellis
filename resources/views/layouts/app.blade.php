@@ -36,5 +36,8 @@
 
     @yield('content')
 
+    <script src='https://cf.chownowcdn.com/latest/static/integrations/ordering-
+modal.min.js' data-chownow-company-id=>23074</script>
+
 </body>
 </html>
