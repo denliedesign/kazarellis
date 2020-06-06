@@ -30,17 +30,35 @@
 {{--    </div>--}}
 
 
-<div class="splash" style="height: 100vh; overflow: hidden;">
+<div class="splash d-none d-md-block" style="height: 100vh; overflow: hidden">
     <div class="splash-images">
         <div class="row p-0 m-0">
-            <div class="col p-0 m-0">
+            <div class="col-sm p-0 m-0">
 
                 <div class="direct-overlay"> <div class="d-flex align-items-center justify-content-center" style="height: 100vh;">
                         <a href="okoboji"><img src="/images/okoboji-logo.png" alt="" style="height: 125px;"></a></div></div>
                 <img src="/images/spaghetti.jpg" alt="" class="img-fluid">
             </div>
-            <div class="col p-0 m-0">
+            <div class="col-sm p-0 m-0">
                 <div class="direct-overlay"> <div class="d-flex align-items-center justify-content-center" style="height: 100vh;">
+                        <a href="spencer"><img src="/images/spencer-logo.png" alt="" style="height: 125px;"></a></div></div>
+                <img src="/images/spencer-bg.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="splash d-block d-md-none" style="height: 100vh;">
+    <div class="splash-images">
+        <div class="row p-0 m-0">
+            <div class="col-sm p-0 m-0">
+
+                <div class="direct-overlay"> <div class="d-flex align-items-center justify-content-center" style="height: 50vh;">
+                        <a href="okoboji"><img src="/images/okoboji-logo.png" alt="" style="height: 125px;"></a></div></div>
+                <img src="/images/spaghetti.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-sm p-0 m-0">
+                <div class="direct-overlay"> <div class="d-flex align-items-center justify-content-center" style="height: 50vh;">
                         <a href="spencer"><img src="/images/spencer-logo.png" alt="" style="height: 125px;"></a></div></div>
                 <img src="/images/spencer-bg.jpg" alt="" class="img-fluid">
             </div>

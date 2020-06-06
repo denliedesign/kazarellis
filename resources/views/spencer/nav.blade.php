@@ -1,6 +1,6 @@
 <nav class="p-3 d-flex justify-content-between">
     <div class="social-nav">
-        <a href="https://www.facebook.com/Kazarellis/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="https://www.facebook.com/Kazarellis-On-The-River-101646398000752/?modal=admin_todo_tour" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
     </div>
     <div>
         <ul style="list-style-type: none">
@@ -50,6 +50,9 @@
                 </li>
                 <li class="nav-item mx-4">
                     <a class="nav-link" href="#footer">Contact</a>
+                </li>
+                <li class="nav-item mx-4">
+                    <a class="nav-link" href="/">Locations</a>
                 </li>
                 <li class="nav-item mx-4">
                     <button type="button" class="btn btn-warning"><a id="order" href="https://ordering.chownow.com/order/10320/locations" target="_blank">Order Online</a></button>

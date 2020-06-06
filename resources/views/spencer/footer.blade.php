@@ -37,7 +37,7 @@
 <hr>
 
 <div class="social-nav" id="bottom-social">
-    <a href="https://www.facebook.com/Kazarellis/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+    <a href="https://www.facebook.com/Kazarellis-On-The-River-101646398000752/?modal=admin_todo_tour" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
 </div>
 
 <div class="sig"><a href="https://denliedesign.com">Denlie Design</a></div>
