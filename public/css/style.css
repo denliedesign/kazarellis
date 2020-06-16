@@ -503,6 +503,16 @@ footer {
     opacity: 0.8;
 }
 
+.menu-item-underline-title {
+    width: 50%;
+    height: 3px;
+    background: black;
+    /*box-shadow: 2px 2px 3px #3f3f3f;*/
+    margin: 0 auto;
+    opacity: 0.8;
+    border-radius: 20%;
+}
+
 #menu-list,
 #create-menu,
 #add-photo-section {
@@ -512,6 +522,12 @@ footer {
 
 #menu-list {
     border: 2px solid #0b7a47;
+}
+
+#menu-list-spencer {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    border: 2px dashed #bd2929;
 }
 
 .text-green {
