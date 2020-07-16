@@ -97,7 +97,7 @@ class SpencermenuController extends Controller
         return request()->validate([
             'course' => 'required',
             'item' => 'required',
-            'description' => 'required',
+            'description' => 'nullable',
         ]);
     }
 }

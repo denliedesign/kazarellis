@@ -18,7 +18,7 @@ class CreateMenusTable extends Migration
             $table->timestamps();
             $table->string('course');
             $table->string('item');
-            $table->text('description');
+            $table->text('description')->nullable();
         });
     }
 
