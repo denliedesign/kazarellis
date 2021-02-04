@@ -14,7 +14,16 @@
             <div class="col-3">
                 <div class="contact-footer-text pb-3">
                     <p class="text-left"><span class="badge badge-secondary">Dining Hours</span></p>
-                    @include('dinings')
+{{--                    @include('dinings')--}}
+                    <p>
+                        Wednesday	5–9PM
+                        <br>Thursday	5–9PM
+                        <br>Friday	5–10PM
+                        <br>Saturday	5–10PM
+                        <br>Sunday	Closed
+                        <br>Monday	Closed
+                        <br>Tuesday	Closed
+                    </p>
                 </div>
                 <div class="contact-footer-text">
                     <p class="text-left"><span class="badge badge-secondary">Directions</span></p>
