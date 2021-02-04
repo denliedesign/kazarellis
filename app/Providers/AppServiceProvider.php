@@ -28,9 +28,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-//        view()->composer('*',function($view) {
-//            $view->with('dinings', Dining::all());
-//        });
+        view()->composer('*',function($view) {
+            $view->with('dinings', Dining::all());
+        });
 
         view()->composer('*',function($view) {
             $view->with('photos', Photo::all());
