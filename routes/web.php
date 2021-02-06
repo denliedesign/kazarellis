@@ -29,22 +29,22 @@ Route::get('okoboji/contact', function () {
     return view('okoboji.contact');
 });
 
-Route::get('spencer', function () {
-    return view('spencer.index');
-});
+//Route::get('spencer', function () {
+//    return view('spencer.index');
+//});
 
-Route::get('spencer/events', function () {
-    return view('spencer.events');
-});
+//Route::get('spencer/events', function () {
+//    return view('spencer.events');
+//});
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('okoboji/menu', 'MenuController');
-Route::resource('spencer/spencermenu', 'SpencermenuController');
+//Route::resource('spencer/spencermenu', 'SpencermenuController');
 Route::resource('dinings', 'DiningController');
-Route::resource('spencerdinings', 'SpencerdiningController');
+//Route::resource('spencerdinings', 'SpencerdiningController');
 Route::resource('photos', 'PhotoController');
-Route::resource('spencerphotos', 'SpencerphotoController');
+//Route::resource('spencerphotos', 'SpencerphotoController');
 
