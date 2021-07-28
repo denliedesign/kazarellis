@@ -54,7 +54,7 @@ class MenuPolicy
     public function update(User $user)
     {
         return in_array($user->email, [
-            'admin@admin.com',
+            'customdenlie@gmail.com',
         ]);
     }
 
