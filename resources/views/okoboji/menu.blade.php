@@ -136,6 +136,71 @@
                 <div class="menu-desc-box mt-3 p-1">
                     <small>For those of you that may want to eat light, Kazarelli's offers certain items marked with a star as smaller portions for $4 off. Entrées not marked may be split for only an additional $6.</small>
                 </div>
+
+                <h3 class="font-italic text-uppercase text-green mb-0 mt-3">Pizza</h3>
+                <div class="menu-item-underline"></div>
+{{--                <p style="font-size: 1.05em">All entrées will be served with a choice of Soup or Salad. Bread will be served upon request.</p>--}}
+                @foreach($menus->where('course', 'Pizza') as $menu)
+                    <p><strong>{{ $menu->item }}</strong><br>{{ $menu->description }}</p>
+                    @can('update', $menu)
+                        <div class="dropdown pb-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Edit Item
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dLabel">
+                                <div>
+                                    <form action="{{ route('menu.update', ['menu' => $menu]) }}" method="POST" class="p-3">
+                                        @method('PATCH')
+                                        @include('forms.menu')
+
+                                        <button class="btn btn-primary" type="submit">Save</button>
+                                    </form>
+                                </div>
+                                <div>
+                                    <form action="menu/{{ $menu->id }}" method="POST">
+                                        @method('DELETE')
+                                        @csrf
+
+                                        <button class="btn btn-danger ml-3" type="submit">Delete</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    @endcan
+                @endforeach
+
+                <h3 class="font-italic text-uppercase text-green mb-0 mt-3">Gluten Free</h3>
+                <div class="menu-item-underline"></div>
+{{--                <p style="font-size: 1.05em">All entrées will be served with a choice of Soup or Salad. Bread will be served upon request.</p>--}}
+                @foreach($menus->where('course', 'Gluten Free') as $menu)
+                    <p><strong>{{ $menu->item }}</strong><br>{{ $menu->description }}</p>
+                    @can('update', $menu)
+                        <div class="dropdown pb-3">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Edit Item
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dLabel">
+                                <div>
+                                    <form action="{{ route('menu.update', ['menu' => $menu]) }}" method="POST" class="p-3">
+                                        @method('PATCH')
+                                        @include('forms.menu')
+
+                                        <button class="btn btn-primary" type="submit">Save</button>
+                                    </form>
+                                </div>
+                                <div>
+                                    <form action="menu/{{ $menu->id }}" method="POST">
+                                        @method('DELETE')
+                                        @csrf
+
+                                        <button class="btn btn-danger ml-3" type="submit">Delete</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    @endcan
+                @endforeach
+
                 <h3 class="font-italic text-uppercase text-green mb-0 mt-3">Beverages</h3>
                 <div class="menu-item-underline"></div>
                 @foreach($menus->where('course', 'Beverages') as $menu)

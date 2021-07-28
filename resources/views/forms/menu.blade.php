@@ -5,6 +5,8 @@
         <option value="Salads">Salads</option>
         <option value="Sandwiches">Sandwiches</option>
         <option value="Entrees">Entrees</option>
+        <option value="Pizza">Pizza</option>
+        <option value="Gluten Free">Gluten Free</option>
         <option value="Beverages">Beverages</option>
         <option value="Kid's Menu">Kid's Menu</option>
     </select>
