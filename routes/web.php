@@ -37,7 +37,7 @@ Route::get('okoboji/contact', function () {
 //    return view('spencer.events');
 //});
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
