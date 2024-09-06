@@ -20,9 +20,10 @@
                     <p class="text-left"><span class="badge badge-secondary">Directions</span></p>
                     <p>
                         <ion-icon name="location-outline"></ion-icon>
-                        <a href="https://www.google.com/maps/place/1127+Lakeside+Ave,+Milford,+IA+51351/@43.3743524,-95.1804476,17z/data=!3m1!4b1!4m5!3m4!1s0x878cb62e5db5e2c1:0x8b5e5a18bc9f41ef!8m2!3d43.3743524!4d-95.1782589" target="_blank" style="color: black;">
-                            1127 Lakeside Ave, Wahpeton, IA 51351
-                        </a>
+                        10 W Broadway St, Arnolds Park, IA 51331
+{{--                        <a href="https://www.google.com/maps/place/1127+Lakeside+Ave,+Milford,+IA+51351/@43.3743524,-95.1804476,17z/data=!3m1!4b1!4m5!3m4!1s0x878cb62e5db5e2c1:0x8b5e5a18bc9f41ef!8m2!3d43.3743524!4d-95.1782589" target="_blank" style="color: black;">--}}
+{{--                            10 --}}
+{{--                        </a>--}}
                     </p>
                 </div>
             </div>
